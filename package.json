@@ -9,6 +9,7 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/react": "^4.3.0",
     "@livestore/adapter-web": "^0.3.0",
     "@livestore/devtools-vite": "^0.3.0",
     "@livestore/livestore": "^0.3.0",
@@ -16,6 +17,10 @@
     "@livestore/react": "^0.3.0",
     "@livestore/utils": "^0.3.0",
     "@livestore/wa-sqlite": "1.0.5-dev.2",
-    "astro": "^5.8.0"
+    "@types/react": "^19.1.5",
+    "@types/react-dom": "^19.1.5",
+    "astro": "^5.8.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
   }
 }
