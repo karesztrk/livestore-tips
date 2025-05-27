@@ -8,10 +8,12 @@ export default defineConfig({
   server: {
     port: process.env.PORT ? Number(process.env.PORT) : 60_001,
   },
-
   vite: {
     worker: { format: "es" },
+    optimizeDeps: {
+      // TODO remove once fixed https://github.com/vitejs/vite/issues/8427
+      exclude: ["@livestore/wa-sqlite"],
+    },
   },
-
   integrations: [react()],
 });
